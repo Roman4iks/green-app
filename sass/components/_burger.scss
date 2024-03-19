@@ -1,0 +1,9 @@
+.burger {
+  display: none;
+  justify-content: flex-end;
+  padding: 10px;
+
+  @media (max-width: 1170px) {
+    display: flex;
+  }
+}

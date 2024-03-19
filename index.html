@@ -12,11 +12,22 @@
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
-    <header id="header">
+    <header id="header" class="section">
+      <div class="burger">
+        <button>
+          <svg class="icon">
+            <use xlink:href="./src/icons.svg#burger"></use>
+          </svg>
+        </button>
+      </div>
       <div class="menu">
         <nav class="menu__nav">
           <div class="menu__logo">
-            <img src="./src/logo.png" alt="Logotype" />
+            <a href="/">
+              <svg class="icon">
+                <use xlink:href="./src/icons.svg#logo"></use>
+              </svg>
+            </a>
           </div>
           <ul class="nav__items">
             <!-- Добавлен класс nav__items -->
@@ -59,7 +70,7 @@
           <h1>СОНЯЧНІ ЕЛЕКТРОСТАНЦІЇ "ПІД КЛЮЧ"</h1>
         </div>
         <div class="content__block">
-          <div class="block__title">
+          <div class="content__block__title">
             <h2>Консультація</h2>
           </div>
           <form action="" class="consult__form">
@@ -86,7 +97,48 @@
             <input type="submit" class="btn" value="Записатися" />
           </form>
         </div>
+        <div class="mobile__btn">
+          <button class="btn">Записатися</button>
+        </div>
       </div>
     </header>
+
+    <footer id="footer" class="section section__footer">
+      <div class="footer__logo">
+        <a href="/">
+          <svg class="icon">
+            <use xlink:href="./src/icons.svg#logo"></use>
+          </svg>
+        </a>
+      </div>
+      <div class="footer__social">
+        <a href="#instagram">
+          <svg class="icon">
+            <use xlink:href="./src/icons.svg#instagram"></use>
+          </svg>
+        </a>
+
+        <a href="#facebook">
+          <svg class="icon">
+            <use xlink:href="./src/icons.svg#facebook"></use>
+          </svg>
+        </a>
+        <a href="#linkdn">
+          <svg class="icon">
+            <use xlink:href="./src/icons.svg#linkdn"></use>
+          </svg>
+        </a>
+
+        <a href="#youtube">
+          <svg class="icon">
+            <use xlink:href="./src/icons.svg#youtube"></use>
+          </svg>
+        </a>
+      </div>
+
+      <div class="footer__copy">
+        <p>Copyright &copy;2024 CompanyName All rights reserved. CompanyName</p>
+      </div>
+    </footer>
   </body>
 </html>

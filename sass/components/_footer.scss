@@ -1,0 +1,31 @@
+footer {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer {
+  &__logo {
+    svg {
+      width: 128px;
+      height: 128px;
+    }
+  }
+
+  &__social {
+    display: flex;
+    grid-gap: $social-gap;
+  }
+
+  &__copy {
+    width: 100%;
+    @include fontSizeAdaptive(14px, 32px);
+    font-weight: 200;
+    text-align: center;
+  }
+}
+
+.section {
+  &__footer {
+    padding: 110px 0;
+  }
+}

@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-@import '_varibles';
-@import '_base';
-@import 'components/_header';
+@import '_variables', '_normalize', '_mixins', '_globals', '_utils';
+
+@import 'components/_header', 'components/footer';
 @import 'components/_input';
 @import 'components/_button';
 @import 'components/_icon';
+@import 'components/_burger';

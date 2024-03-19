@@ -3,4 +3,27 @@
   padding: 0 80px;
   font-weight: 900;
   border-radius: 10px;
+  background-color: forestgreen;
+
+  @media (max-width: 1170px) {
+    padding: 16px 40px;
+  }
+}
+
+.mobile {
+  &__btn {
+    display: none;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+    @media (max-width: 1170px) {
+      display: flex;
+    }
+  }
+}
+
+button {
+  background-color: transparent;
+  border: none;
 }

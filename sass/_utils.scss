@@ -1,0 +1,9 @@
+.section {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  @include responsive-padding(375px, 1279px, 10px);
+  @include responsive-padding(1280px, 1919px, 40px);
+  @include responsive-padding(1920px, 9999px, 80px);
+}

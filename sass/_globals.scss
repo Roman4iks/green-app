@@ -1,17 +1,14 @@
-* {
-  margin: 0;
-  padding: 0;
+body {
   font-family: $font-family;
-  box-sizing: border-box;
 }
 
 h1 {
-  font-size: 96px;
+  @include fontSizeAdaptive(36px, 96px);
   font-weight: 900;
 }
 
 h2 {
-  font-size: 48px;
+  @include fontSizeAdaptive(32px, 64px);
   font-weight: 700;
 }
 
